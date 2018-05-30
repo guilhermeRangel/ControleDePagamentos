@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production":"pm2 start loader.js --name backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermeRangel/ControleDePagamentros.git"
+  },
+  "author": "Guilherme Rangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermeRangel/ControleDePagamentros/issues"
+  },
+  "homepage": "https://github.com/guilhermeRangel/ControleDePagamentros#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.10",
+    "mongoose-paginate": "^5.0.3",
+    "pm2": "^2.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
